@@ -4,10 +4,12 @@
     text-align: center;
     padding: 20px;
     margin-top: 15px;
+
+    .vistiendo {
+        font-size:large;
+    }
 }
-.vistiendo {
-    font-size:large;
-}
+
 .juntos {
     font-size: medium;
 }
@@ -35,14 +37,19 @@
     text-decoration: none;
     margin-top: 20px;
 
+    .regalo a {
+        text-decoration: none;
+        color: $colorsecundario;
+    
+    }
+    
+    &:hover {
+        color: $colorterciario;
+    }
+
 }
-.regalo a {
-    text-decoration: none;
-    color: $colorsecundario;
-}
-.regalo a:hover {
-    color: $colorterciario;
-}
+
+
 #video {
     display: flex;
     justify-content: center;
