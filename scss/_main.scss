@@ -1,0 +1,65 @@
+.magia {
+    background-color: $colorprimario;
+    color: $colorsecundario;
+    text-align: center;
+    padding: 20px;
+    margin-top: 15px;
+}
+.vistiendo {
+    font-size:large;
+}
+.juntos {
+    font-size: medium;
+}
+.look {
+    color: $colorprimario;
+    font-size: larger;
+    font-weight: bold;
+    text-align: center;
+    padding: 30px;
+}
+.seguridad {
+    width: 55%;
+    display: flex; 
+    margin: 0px 245px;
+}
+.tarj {
+    width: 40%;  
+}
+.regalo {
+    text-align: center;
+    font-size: 19px;
+    color: $colorsecundario;
+    background-color: $colorprimario;
+    padding: 15px 15px; 
+    text-decoration: none;
+    margin-top: 20px;
+
+}
+.regalo a {
+    text-decoration: none;
+    color: $colorsecundario;
+}
+.regalo a:hover {
+    color: $colorterciario;
+}
+#video {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.newsletter {
+    grid-area: newsletter;
+    color: $colorterciario;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    border-style: solid;
+    padding: 15px 15px;
+}
+.articulo {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+    margin: 40px;
+}
